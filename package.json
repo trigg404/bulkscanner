@@ -1,0 +1,16 @@
+{
+  "name": "cex-dex-scanner",
+  "version": "1.0.0",
+  "description": "Bulk CEX-DEX divergence scanner",
+  "main": "bulk-scanner.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node bulk-scanner.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
