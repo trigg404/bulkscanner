@@ -1,11 +1,11 @@
 {
   "name": "cex-dex-scanner",
   "version": "1.0.0",
-  "description": "Bulk CEX-DEX divergence scanner",
-  "main": "bulk-scanner.js",
+  "description": "Verified CEX-DEX divergence scanner",
+  "main": "scanner-verified.js",
   "type": "commonjs",
   "scripts": {
-    "start": "node bulk-scanner.js"
+    "start": "node scanner-verified.js"
   },
   "engines": {
     "node": ">=18"
