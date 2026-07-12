@@ -1,7 +1,7 @@
 {
   "name": "cex-dex-scanner",
   "version": "1.0.0",
-  "description": "Verified CEX-DEX divergence scanner",
+  "description": "Combined CEX-DEX and CEX-CEX divergence scanner",
   "main": "scanner-combined.js",
   "type": "commonjs",
   "scripts": {
