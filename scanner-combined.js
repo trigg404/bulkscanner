@@ -14,8 +14,8 @@
 const TELEGRAM_TOKEN   = process.env.TELEGRAM_TOKEN   || "YOUR_BOT_TOKEN";
 const TELEGRAM_CHAT_ID = process.env.TELEGRAM_CHAT_ID || "1501079802";
 
-const MIN_DEX_GAP_PCT   = 5;
-const MIN_CEX_GAP_PCT   = 3;
+const MIN_DEX_GAP_PCT   = 1;
+const MIN_CEX_GAP_PCT   = 0.5;
 const MAX_SANE_GAP_PCT  = 40;    // gaps bigger than this = almost certainly wrong-token; skip
 const SCAN_INTERVAL_MS  = 60000;
 const MIN_LIQUIDITY_USD = 50000;
